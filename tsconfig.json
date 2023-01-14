@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/lib",
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "target": "es6",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "strict": false,
+        "resolveJsonModule": true,
+        "declarationMap": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": false,
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src/**/*",
+        "types/**/*",
+        "server.ts",
+        "index.ts",
+        "directive/**/*",
+    ]
+}

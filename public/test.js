@@ -1,0 +1,1 @@
+(function(){document.getElementsByTagName("head")[0].appendChild(document.createElement("script")).src=(location.protocol.toLocaleLowerCase()=="https:"?"https:":"http:")+"//v.fmkefu.com/cs/js?u=4079_4146&c=auto";})();
